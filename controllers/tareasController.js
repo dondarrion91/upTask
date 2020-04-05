@@ -1,5 +1,5 @@
 const Proyectos = require('../models/Proyectos');
-const Tareas = require('../models/Tareas');
+const Tareas = require('../models/tareas');
 
 exports.agregarTarea = async(req,res,next) => {
     
