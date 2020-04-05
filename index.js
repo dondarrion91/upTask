@@ -18,7 +18,7 @@ const db = require("./config/db");
 
 // Importar el modelo
 require('./models/Proyectos');
-require('./models/Tareas');
+require('./models/tareas');
 require('./models/Usuarios');
 
 db.sync()
