@@ -2,7 +2,7 @@ const Sequelize = require("sequelize");
 const db = require("../config/db");
 const Proyectos = require("./Proyectos");
 
-const Tareas = db.define('tareas',{
+const tareas = db.define('tareas',{
     id: {
         type: Sequelize.INTEGER(11),
         primaryKey: true,
@@ -11,8 +11,8 @@ const Tareas = db.define('tareas',{
     tarea: Sequelize.STRING,
     estado: Sequelize.INTEGER(1)
 });
-Tareas.belongsTo(Proyectos);
+tareas.belongsTo(Proyectos);
 
 
 
-module.exports = Tareas;
+module.exports = tareas;
