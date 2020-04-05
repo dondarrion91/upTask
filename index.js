@@ -4,7 +4,7 @@ const path = require('path'); // leer los archivos del file system (rutas)
 const bodyParser = require("body-parser");
 const expressValidator = require('express-validator');
 const flash = require("connect-flash");
-const session = require("express-session");
+const session = require("cookie-session");
 const cookieParser = require("cookie-parser");
 const passport = require("./config/passport");
 //variablkes de entorno
