@@ -1,6 +1,6 @@
 module.exports = {
-    user: '343239b36452c7',
-    pass: 'f261fbc67319b3',
-    host: 'smtp.mailtrap.io',
-    port: '2525'
+    user: 'apikey',
+    pass: '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',
+    host: 'smtp.sendgrid.net',
+    port: '25'
 }
