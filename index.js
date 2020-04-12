@@ -28,7 +28,7 @@ db.sync()
 // crear una app de express
 const app = express(); // contiene todo lo necesario de express 
 
-//donde cargar los archivos estaticos
+//onde cargar los archivos estaticos
 app.use(express.static('public'));
 
 // Habilitar Pug

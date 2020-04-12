@@ -20,7 +20,10 @@ html(lang="en")
                     label(for="email") E-mail:
                     input(type="email" name="email" placeholder="Tu Email" value= email)
                 .campo.enviar   
-                    input.boton(type="submit" value="Reestablecer Password")
+                    button.botonNuevo(type="submit")
+                        | Reestablecer
+                        br
+                        |  Contraseña                
                 .campo-acciones
                     a(href="/iniciar-sesion") Ya lo recorde, volver a login
                 
